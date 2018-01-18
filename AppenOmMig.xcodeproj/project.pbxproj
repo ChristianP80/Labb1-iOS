@@ -13,6 +13,10 @@
 		3D14411C200CC7CC004136BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D14411B200CC7CC004136BC /* Assets.xcassets */; };
 		3D14411F200CC7CC004136BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D14411D200CC7CC004136BC /* LaunchScreen.storyboard */; };
 		3D144122200CC7CC004136BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D144121200CC7CC004136BC /* main.m */; };
+		3D14412A200CCAE3004136BC /* miniGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D144129200CCAE3004136BC /* miniGameViewController.m */; };
+		3D14412D200CE3D3004136BC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D14412C200CE3D3004136BC /* SettingsViewController.m */; };
+		3D144196200F9317004136BC /* ThisIsMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D144195200F9317004136BC /* ThisIsMeViewController.m */; };
+		3D144199200F9460004136BC /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D144198200F9460004136BC /* StoryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		3D14411E200CC7CC004136BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D144120200CC7CC004136BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D144121200CC7CC004136BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D144128200CCAE3004136BC /* miniGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = miniGameViewController.h; sourceTree = "<group>"; };
+		3D144129200CCAE3004136BC /* miniGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = miniGameViewController.m; sourceTree = "<group>"; };
+		3D14412B200CE3D3004136BC /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		3D14412C200CE3D3004136BC /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		3D144194200F9317004136BC /* ThisIsMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThisIsMeViewController.h; sourceTree = "<group>"; };
+		3D144195200F9317004136BC /* ThisIsMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThisIsMeViewController.m; sourceTree = "<group>"; };
+		3D144197200F9460004136BC /* StoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		3D144198200F9460004136BC /* StoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,14 @@
 				3D144115200CC7CC004136BC /* ViewController.h */,
 				3D144116200CC7CC004136BC /* ViewController.m */,
 				3D144118200CC7CC004136BC /* Main.storyboard */,
+				3D144197200F9460004136BC /* StoryViewController.h */,
+				3D144198200F9460004136BC /* StoryViewController.m */,
+				3D144194200F9317004136BC /* ThisIsMeViewController.h */,
+				3D144195200F9317004136BC /* ThisIsMeViewController.m */,
+				3D14412B200CE3D3004136BC /* SettingsViewController.h */,
+				3D14412C200CE3D3004136BC /* SettingsViewController.m */,
+				3D144128200CCAE3004136BC /* miniGameViewController.h */,
+				3D144129200CCAE3004136BC /* miniGameViewController.m */,
 				3D14411B200CC7CC004136BC /* Assets.xcassets */,
 				3D14411D200CC7CC004136BC /* LaunchScreen.storyboard */,
 				3D144120200CC7CC004136BC /* Info.plist */,
@@ -142,7 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D144196200F9317004136BC /* ThisIsMeViewController.m in Sources */,
+				3D144199200F9460004136BC /* StoryViewController.m in Sources */,
 				3D144117200CC7CC004136BC /* ViewController.m in Sources */,
+				3D14412A200CCAE3004136BC /* miniGameViewController.m in Sources */,
+				3D14412D200CE3D3004136BC /* SettingsViewController.m in Sources */,
 				3D144122200CC7CC004136BC /* main.m in Sources */,
 				3D144114200CC7CC004136BC /* AppDelegate.m in Sources */,
 			);

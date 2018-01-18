@@ -1,32 +1,25 @@
 //
-//  ViewController.m
+//  StoryViewController.m
 //  AppenOmMig
 //
-//  Created by Christian Persson on 2018-01-15.
+//  Created by Christian Persson on 2018-01-17.
 //  Copyright © 2018 Christian Persson. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "StoryViewController.h"
 #import "SettingsViewController.h"
 
-@interface ViewController ()
+@interface StoryViewController ()
 @property (strong, nonatomic) IBOutlet UIView *ViewController;
-@property (weak, nonatomic) IBOutlet UIButton *meButton;
-@property (weak, nonatomic) IBOutlet UIButton *storyButton;
-@property (weak, nonatomic) IBOutlet UIButton *gameButton;
-@property (weak, nonatomic) IBOutlet UIButton *settingsButton;
+
 @end
 
-@implementation ViewController
+@implementation StoryViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _meButton.layer.cornerRadius = 7;
-    _storyButton.layer.cornerRadius = 7;
-    _gameButton.layer.cornerRadius = 7;
-    _settingsButton.layer.cornerRadius = 7;
+    // Do any additional setup after loading the view.
 }
-
 - (void) loadViewIfNeeded {
     [super loadViewIfNeeded];
     [self updateColor];
@@ -42,5 +35,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end
