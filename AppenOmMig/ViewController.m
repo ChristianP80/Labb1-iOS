@@ -21,10 +21,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _meButton.layer.cornerRadius = 7;
-    _storyButton.layer.cornerRadius = 7;
-    _gameButton.layer.cornerRadius = 7;
-    _settingsButton.layer.cornerRadius = 7;
+    self.meButton.layer.cornerRadius = 7;
+    self.storyButton.layer.cornerRadius = 7;
+    self.gameButton.layer.cornerRadius = 7;
+    self.settingsButton.layer.cornerRadius = 7;
 }
 
 - (void) loadViewIfNeeded {

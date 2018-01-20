@@ -12,8 +12,6 @@
 @property (weak, nonatomic) IBOutlet UISlider *redAmount;
 @property (weak, nonatomic) IBOutlet UISlider *greenAmount;
 @property (weak, nonatomic) IBOutlet UISlider *blueAmount;
-//@property (strong, nonatomic) IBOutlet UIView *thisIsMe;
-//@property (strong, nonatomic) IBOutlet UIView *story;
 @property (weak, nonatomic) IBOutlet UIButton *saveButton;
 
 @end

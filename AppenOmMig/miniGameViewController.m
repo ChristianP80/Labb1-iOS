@@ -16,21 +16,16 @@
 @property (weak, nonatomic) IBOutlet UILabel *sliderValue;
 @property (weak, nonatomic) IBOutlet UIButton *guessButton;
 @property (strong, nonatomic) IBOutlet UIView *ViewController;
+@property (nonatomic) int randomNumber;
 @end
 
 @implementation miniGameViewController
-int sliderValue;
-int randomNumber;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self newGame];
-
-    // Do any additional setup after loading the view.
-}
-- (int) randomNumber {
-    int randomNumber = arc4random_uniform(100) +1;
-    return randomNumber;
+    self.guessButton.layer.cornerRadius = 7;
 }
 
 - (void) loadViewIfNeeded {
@@ -44,28 +39,30 @@ int randomNumber;
 }
 
 - (void)newGame {
-    randomNumber = [self randomNumber];
-    _numberSlider.value = 50;
-    [_sliderValue setText:[NSString stringWithFormat:@"%d", [self getValue]]];
+    self.randomNumber = [self rndNumber];
+    self.numberSlider.value = 50;
+    self.sliderValue.text = [NSString stringWithFormat:@"%d", (int)self.numberSlider.value];
+}
+
+- (int) rndNumber {
+    int tempRandom = arc4random_uniform(100) +1;
+    return tempRandom;
 }
 
 - (IBAction)sliderChange:(id)sender {
-    sliderValue = [self getValue];
-    [_sliderValue setText:[NSString stringWithFormat:@"%d", sliderValue]];
+    [self.sliderValue setText:[NSString stringWithFormat:@"%d", (int)self.numberSlider.value]];
 }
-- (int)getValue {
-    return _numberSlider.value;
-}
+
 - (IBAction)makeGuess:(id)sender {
-    if (sliderValue > randomNumber) {
-        [_helpTextLabel setText:[NSString stringWithFormat:@"Guess lower"]];
-    } else if (sliderValue < randomNumber) {
-        [_helpTextLabel setText:[NSString stringWithFormat:@"Guess higher"]];
-    } else if (sliderValue == randomNumber) {
-        [_helpTextLabel setText:[NSString stringWithFormat:@"Correct guess"]];
+    if ((int)self.numberSlider.value > self.randomNumber) {
+        [self.helpTextLabel setText:[NSString stringWithFormat:@"Guess lower"]];
+    } else if ((int)self.numberSlider.value < self.randomNumber) {
+        [self.helpTextLabel setText:[NSString stringWithFormat:@"Guess higher"]];
+    } else if ((int)self.numberSlider.value == self.randomNumber) {
+        [self.helpTextLabel setText:[NSString stringWithFormat:@"Correct guess"]];
         [self newGame];
     }
-}
+} //
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

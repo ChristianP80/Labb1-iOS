@@ -84,28 +84,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="och apputveckling" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uEr-OC-fuC">
-                                <rect key="frame" x="16" y="193" width="343" height="41"/>
+                                <rect key="frame" x="16" y="113" width="343" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Varför jag sökt till ITHS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooU-tz-Bdg">
-                                <rect key="frame" x="16" y="153" width="343" height="41"/>
+                                <rect key="frame" x="16" y="73" width="343" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7bw-As-w5K">
-                                <rect key="frame" x="67" y="276" width="240" height="329"/>
+                                <rect key="frame" x="67" y="162" width="240" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XP4-qS-cd0">
-                                        <rect key="frame" x="0.0" y="8" width="240" height="321"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="321"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                        <mutableString key="text">När jag var 20 år och muckat från lumpen fick jag mitt första jobb på Manpoer med uppdrag hos Ericsson. Stannade kvar på Ericsson som konsult i sex år och därefter fick jag anställning på Ericsson. På Ericsson har jag haft diverse sysslor såsom produktionspersonal, reparatör/felsökare av kretskort, godshanterare, 1:a linjes chef etc. Fortsatte att jobba på Ericsson till det senaste varslet som där jag tog beslut om att säga till min chef att jag kunde tänka mig att gå om han kunde släppa mig. Sista Maj 2017 var min sista arbetsdag på Ericsson där jag jobbar sammanlagt 17 år. Det var lite av en chansning  att sluta för jag hade sökt till utbildningen på ITHS men hade inte fått besked om att jag kommit in eller inte. Varför sökte jag då till ITHS och apputveckling? Under tiden som jag fick jobba kvar och när jag fått besked om att jag fick sluta på Ericsson började jag reflektera över vad jag ville göra. Och med tanke på avgångspaketen vi fick från Ericsson där jag har fullt betalt under en ganska så lång period tänkte jag direkt på utbildning. Hittade ganska snabbt ITHS och deras utbildninar som lät väldigt intressanta. Gick två distanskurser, programmering grund samt fortsättningskurs och då kände jag direkt att shit vad kul det är med att knacka kod. Så på den banan är det.</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -131,13 +131,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="2mt-I5-VvD">
-                                <rect key="frame" x="14" y="340" width="347" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="sliderChange:" destination="1MO-ZM-82B" eventType="valueChanged" id="qzV-W4-V6W"/>
-                                </connections>
-                            </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Hx-ml-mDN">
                                 <rect key="frame" x="16" y="413" width="343" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -146,7 +139,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHI-37-c0X">
-                                <rect key="frame" x="109" y="508" width="157" height="30"/>
+                                <rect key="frame" x="109" y="508" width="157" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.66060298681259155" green="0.65289515256881714" blue="0.63659501075744629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0016656091370558235" green="0.00085939999758168398" blue="0.0015822782288353614" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -156,7 +149,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73b-dE-Uw7">
-                                <rect key="frame" x="109" y="234" width="157" height="98"/>
+                                <rect key="frame" x="33" y="234" width="326" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <nil key="textColor"/>
@@ -169,6 +162,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="2mt-I5-VvD">
+                                <rect key="frame" x="14" y="353" width="347" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderChange:" destination="1MO-ZM-82B" eventType="valueChanged" id="qzV-W4-V6W"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" red="0.58804965019226074" green="0.88367509841918945" blue="0.92272883653640747" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="M2f-3H-UTo"/>
@@ -244,7 +244,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZA-4u-qmG">
-                                <rect key="frame" x="139" y="456" width="96" height="30"/>
+                                <rect key="frame" x="119" y="450" width="137" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.66060298681259155" green="0.65289515256881714" blue="0.63659501075744629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -267,7 +267,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dpu-Cu-hV4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="313" y="1241"/>
+            <point key="canvasLocation" x="-511.19999999999999" y="868.51574212893559"/>
         </scene>
         <!--This is me-->
         <scene sceneID="aN2-gf-iEQ">
@@ -278,14 +278,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Christian Persson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W93-ae-cuY">
-                                <rect key="frame" x="16" y="464" width="343" height="48"/>
+                                <rect key="frame" x="16" y="526" width="343" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KORV-18" translatesAutoresizingMaskIntoConstraints="NO" id="8dY-Sy-DjN">
-                                <rect key="frame" x="53" y="52" width="256" height="356"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KORV-18" translatesAutoresizingMaskIntoConstraints="NO" id="8dY-Sy-DjN">
+                                <rect key="frame" x="0.0" y="76" width="375" height="419"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -323,7 +323,6 @@
         <image name="KORV-18" width="4000" height="6000"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="IHf-Tl-nz0"/>
         <segue reference="Kkf-x9-4nJ"/>
     </inferredMetricsTieBreakers>
 </document>
