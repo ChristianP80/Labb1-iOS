@@ -11,6 +11,7 @@
 
 @interface StoryViewController ()
 @property (strong, nonatomic) IBOutlet UIView *ViewController;
+@property (weak, nonatomic) IBOutlet UIScrollView *mySctollView;
 
 @end
 
@@ -18,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.mySctollView.layer.cornerRadius = 7;
     // Do any additional setup after loading the view.
 }
 - (void) loadViewIfNeeded {

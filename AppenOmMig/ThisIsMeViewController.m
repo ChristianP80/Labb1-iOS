@@ -11,6 +11,7 @@
 
 @interface ThisIsMeViewController ()
 @property (strong, nonatomic) IBOutlet UIView *ViewController;
+@property (weak, nonatomic) IBOutlet UIImageView *meImageView;
 
 @end
 
@@ -18,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.meImageView.layer.cornerRadius = 15;
+    self.meImageView.clipsToBounds = YES;
     // Do any additional setup after loading the view.
 }
 - (void) loadViewIfNeeded {

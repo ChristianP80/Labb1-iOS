@@ -102,10 +102,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XP4-qS-cd0">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="321"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="329"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">När jag var 20 år och muckat från lumpen fick jag mitt första jobb på Manpoer med uppdrag hos Ericsson. Stannade kvar på Ericsson som konsult i sex år och därefter fick jag anställning på Ericsson. På Ericsson har jag haft diverse sysslor såsom produktionspersonal, reparatör/felsökare av kretskort, godshanterare, 1:a linjes chef etc. Fortsatte att jobba på Ericsson till det senaste varslet som där jag tog beslut om att säga till min chef att jag kunde tänka mig att gå om han kunde släppa mig. Sista Maj 2017 var min sista arbetsdag på Ericsson där jag jobbar sammanlagt 17 år. Det var lite av en chansning  att sluta för jag hade sökt till utbildningen på ITHS men hade inte fått besked om att jag kommit in eller inte. Varför sökte jag då till ITHS och apputveckling? Under tiden som jag fick jobba kvar och när jag fått besked om att jag fick sluta på Ericsson började jag reflektera över vad jag ville göra. Och med tanke på avgångspaketen vi fick från Ericsson där jag har fullt betalt under en ganska så lång period tänkte jag direkt på utbildning. Hittade ganska snabbt ITHS och deras utbildninar som lät väldigt intressanta. Gick två distanskurser, programmering grund samt fortsättningskurs och då kände jag direkt att shit vad kul det är med att knacka kod. Så på den banan är det.</mutableString>
+                                        <string key="text">När jag var 20 år och muckat från lumpen fick jag mitt första jobb på Manpoer med uppdrag hos Ericsson. Stannade kvar på Ericsson som konsult i sex år och därefter fick jag anställning på Ericsson. På Ericsson har jag haft diverse sysslor såsom produktionspersonal, reparatör/felsökare av kretskort, godshanterare, 1:a linjes chef etc. Fortsatte att jobba på Ericsson till det senaste varslet som där jag tog beslut om att säga till min chef att jag kunde tänka mig att gå om han kunde släppa mig. Sista Maj 2017 var min sista arbetsdag på Ericsson där jag jobbar sammanlagt 17 år. Det var lite av en chansning  att sluta för jag hade sökt till utbildningen på ITHS men hade inte fått besked om att jag kommit in eller inte. Varför sökte jag då till ITHS och apputveckling? Under tiden som jag fick jobba kvar och när jag fått besked om att jag fick sluta på Ericsson började jag reflektera över vad jag ville göra. Och med tanke på avgångspaketen vi fick från Ericsson där jag har fullt betalt under en ganska så lång period tänkte jag direkt på utbildning. Hittade ganska snabbt ITHS och deras utbildninar som lät väldigt intressanta. Gick två distanskurser, programmering grund samt fortsättningskurs och då kände jag direkt att shit vad kul det är med att knacka kod. Så på den banan är det.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -117,6 +117,7 @@
                     </view>
                     <connections>
                         <outlet property="ViewController" destination="lde-E9-GeR" id="llN-Z9-4l7"/>
+                        <outlet property="mySctollView" destination="7bw-As-w5K" id="nf4-xa-qJ7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wPS-G8-Vak" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -284,8 +285,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KORV-18" translatesAutoresizingMaskIntoConstraints="NO" id="8dY-Sy-DjN">
-                                <rect key="frame" x="0.0" y="76" width="375" height="419"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KORV-18" translatesAutoresizingMaskIntoConstraints="NO" id="8dY-Sy-DjN">
+                                <rect key="frame" x="42" y="115" width="290" height="381"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -294,6 +295,7 @@
                     </view>
                     <connections>
                         <outlet property="ViewController" destination="CBs-j0-sgJ" id="gey-Pn-kzW"/>
+                        <outlet property="meImageView" destination="8dY-Sy-DjN" id="hIp-K0-0gZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ft8-hT-jAg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -323,6 +325,7 @@
         <image name="KORV-18" width="4000" height="6000"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="IHf-Tl-nz0"/>
         <segue reference="Kkf-x9-4nJ"/>
     </inferredMetricsTieBreakers>
 </document>
